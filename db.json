@@ -10,5 +10,11 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "roles" : [
+  {"name":"administrator", "add":true , "modify":true, "delete":true, "view" : true},
+  {"name":"super-administrator", "add":true , "modify":true, "delete":true, "view" : true},
+  {"name":"backoffice", "add":true , "modify":true, "delete":true, "view" : true},
+  {"name":"new-user", "add":true , "modify":true, "delete":true, "view" : true},
+  ]
 }
