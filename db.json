@@ -12,9 +12,9 @@
     "name": "typicode"
   },
   "roles" : [
-  {"name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
-    {"name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
-    {"name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
-    {"name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"} 
+  {"id":1, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
+    {"id":2, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
+    {"id":3, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
+    {"id":4, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"} 
   ]
 }
