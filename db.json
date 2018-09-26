@@ -32,7 +32,7 @@
     },
     {
       "id": "1",
-      "name": "administrator",
+      "name": "sub-administrator",
       "permission": [
         {
           "id": "9",
