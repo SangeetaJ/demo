@@ -1,20 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "roles" : [
-  {"id":1, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
-    {"id":2, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
-    {"id":3, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true"},
-    {"id":4, "name":"administrator", "add": "true" , "modify":"true", "delete":"true", "view" : "true" }
+  "roles": [
+    {
+      "id": "1",
+      "name": "administrator",
+      "permission": [
+        {
+          "id": "9",
+          "name": "add bot",
+          "add": true,
+          "modify": true,
+          "delete": true,
+          "view": true
+        },
+        {
+          "id": "10",
+          "name": "remove bot",
+          "add": true,
+          "modify": true,
+          "delete": true,
+          "view": true
+        },
+        {
+          "id": "11",
+          "name": "remove bot",
+          "add": true,
+          "modify": true,
+          "delete": true,
+          "view": true
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "administrator",
+      "permission": [
+        {
+          "id": "9",
+          "name": "add bot",
+          "add": true,
+          "modify": true,
+          "delete": true,
+          "view": true
+        },
+        {
+          "id": "10",
+          "name": "remove bot",
+          "add": true,
+          "modify": true,
+          "delete": true,
+          "view": true
+        },
+        {
+          "id": "11",
+          "name": "remove bot",
+          "add": true,
+          "modify": true,
+          "delete": true,
+          "view": true
+        }
+      ]
+    }
   ]
 }
