@@ -8,24 +8,24 @@
           "id": "9",
           "name": "add bot",
           "add": true,
-          "modify": true,
+          "modify": false,
           "delete": true,
-          "view": true
+          "view": false
         },
         {
           "id": "10",
           "name": "remove bot",
-          "add": true,
-          "modify": true,
-          "delete": true,
+          "add": false,
+          "modify": false,
+          "delete": false,
           "view": true
         },
         {
           "id": "11",
           "name": "remove bot",
           "add": true,
-          "modify": true,
-          "delete": true,
+          "modify": false,
+          "delete": false,
           "view": true
         }
       ]
@@ -37,26 +37,26 @@
         {
           "id": "9",
           "name": "add bot",
-          "add": true,
+          "add": false,
           "modify": true,
-          "delete": true,
+          "delete": false,
           "view": true
         },
         {
           "id": "10",
           "name": "remove bot",
           "add": true,
-          "modify": true,
+          "modify": false,
           "delete": true,
-          "view": true
+          "view": false
         },
         {
           "id": "11",
           "name": "remove bot",
           "add": true,
-          "modify": true,
+          "modify": false,
           "delete": true,
-          "view": true
+          "view": false
         }
       ]
     }
