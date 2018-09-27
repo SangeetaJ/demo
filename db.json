@@ -22,7 +22,7 @@
         },
         {
           "id": "11",
-          "name": "remove bot",
+          "name": "deploy bot",
           "add": true,
           "modify": false,
           "delete": false,
@@ -52,7 +52,7 @@
         },
         {
           "id": "11",
-          "name": "remove bot",
+          "name": "deploy bot",
           "add": true,
           "modify": false,
           "delete": true,
