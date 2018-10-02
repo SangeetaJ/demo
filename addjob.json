@@ -1,0 +1,32 @@
+{
+  "id": "1",
+  "name": "sangeeta",
+  "description": "this is description",
+  "bots": [
+    {
+      "id": "1",
+      "name": "botname"
+    },
+    {
+      "id": "2",
+      "name": "botname2"
+    }
+  ],
+  "botstation": [
+    {
+      "id": "1",
+      "name": "botstation"
+    },
+    {
+      "id": "2",
+      "name": "botstation2"
+    }
+  ],
+  "retries": "5",
+  "timethreshold": "3timsa",
+  "jobstatus": {
+    "incomplete": "0",
+    "active": "1",
+    "inactive": "2"
+  }
+}
