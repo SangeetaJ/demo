@@ -1,9 +1,19 @@
 {
-  "job": [
+  "jobs": [
     {
       "id": "1",
       "name": "sangeeta",
       "description": "this is description",
+      "bot_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "botstation_ids": [
+        "1",
+        "2",
+        "3"
+      ],
       "bots": [
         {
           "id": "1",
@@ -14,19 +24,20 @@
           "name": "botname2"
         }
       ],
-      "botstation": [
+      "botstations": [
         {
           "id": "1",
           "name": "botstation"
         },
         {
           "id": "2",
-          "name": "botstation2",
-          "retries": "5"
+          "name": "botstation2"
         }
       ],
-      "timethreshold": "3timsa",
-      "jobstatus": {
+      "retries": "5",
+      "timethreshold": "3times",
+      "jobstatus": "0",
+      "jobstatuses": {
         "incomplete": "0",
         "active": "1",
         "inactive": "2"
