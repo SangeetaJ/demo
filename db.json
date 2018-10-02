@@ -4,36 +4,8 @@
       "id": "1",
       "name": "sangeeta",
       "description": "this is description",
-      "bot_ids": [
-        "1",
-        "2",
-        "3"
-      ],
-      "botstation_ids": [
-        "1",
-        "2",
-        "3"
-      ],
-      "bots": [
-        {
-          "id": "1",
-          "name": "botname"
-        },
-        {
-          "id": "2",
-          "name": "botname2"
-        }
-      ],
-      "botstations": [
-        {
-          "id": "1",
-          "name": "botstation"
-        },
-        {
-          "id": "2",
-          "name": "botstation2"
-        }
-      ],
+      "bot_ids":1,
+      "botstation_ids":1,      
       "retries": "5",
       "timethreshold": "3times",
       "jobstatus": "0",
