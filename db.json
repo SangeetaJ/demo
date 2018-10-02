@@ -1,64 +1,36 @@
 {
-  "roles": [
+  "job": [
     {
       "id": "1",
-      "name": "administrator",
-      "permission": [
+      "name": "sangeeta",
+      "description": "this is description",
+      "bots": [
         {
-          "id": "9",
-          "name": "add bot",
-          "add": true,
-          "modify": false,
-          "delete": true,
-          "view": false
+          "id": "1",
+          "name": "botname"
         },
         {
-          "id": "10",
-          "name": "remove bot",
-          "add": false,
-          "modify": false,
-          "delete": false,
-          "view": true
-        },
-        {
-          "id": "11",
-          "name": "deploy bot",
-          "add": true,
-          "modify": false,
-          "delete": false,
-          "view": true
+          "id": "2",
+          "name": "botname2"
         }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "sub-administrator",
-      "permission": [
+      ],
+      "botstation": [
         {
-          "id": "9",
-          "name": "add bot",
-          "add": false,
-          "modify": true,
-          "delete": false,
-          "view": true
+          "id": "1",
+          "name": "botstation"
         },
         {
-          "id": "10",
-          "name": "remove bot",
-          "add": true,
-          "modify": false,
-          "delete": true,
-          "view": false
-        },
-        {
-          "id": "11",
-          "name": "deploy bot",
-          "add": true,
-          "modify": false,
-          "delete": true,
-          "view": false
+          "id": "2",
+          "name": "botstation2",
+          "retries": "5"
         }
-      ]
+      ],
+      "timethreshold": "3timsa",
+      "jobstatus": {
+        "incomplete": "0",
+        "active": "1",
+        "inactive": "2"
+      }
     }
   ]
 }
